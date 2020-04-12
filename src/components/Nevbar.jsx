@@ -11,10 +11,10 @@ class Nevbar extends Component {
     });
     return (
       <React.Fragment>
-        <nav className="teal">
+        <nav className="cyan accent-4">
           <div className="nav-wrapper left-align">
             <a href="#!" className="brand-logo">
-              React App
+              Beat Maker
             </a>
             <a href="#!" data-target="mobile-demo" className="sidenav-trigger">
               <i className="material-icons">menu</i>
