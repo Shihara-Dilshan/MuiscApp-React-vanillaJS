@@ -4,11 +4,7 @@ import "../App.css";
 
 class Visual extends Component {
   render() {
-    return (
-      <div>
-        <h5>Visual</h5>
-      </div>
-    );
+    return <div className="visual"></div>;
   }
 }
 

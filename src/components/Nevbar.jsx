@@ -11,7 +11,7 @@ class Nevbar extends Component {
     });
     return (
       <React.Fragment>
-        <nav className="cyan accent-4">
+        <nav className="teal accent-4">
           <div className="nav-wrapper left-align">
             <a href="#!" className="brand-logo">
               Beat Maker

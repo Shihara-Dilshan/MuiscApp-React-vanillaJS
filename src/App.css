@@ -27,8 +27,9 @@ body {
 }
 
 .pads > div {
-  height: 100px;
+  height: 150px;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .pad1 {
@@ -54,43 +55,28 @@ body {
   background: #60b2d3;
 }
 
-/*
-.App {
-  text-align: center;
-}
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  100% {
+    bottom: 0%;
+    left: 80%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.visual > div {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 0%;
+  z-index: -1;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/

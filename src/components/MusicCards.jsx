@@ -4,10 +4,10 @@ import "../App.css";
 
 function MusicCards(props) {
   return (
-    <div className="pads">
+    <React.Fragment>
       <div className={props.class}></div>
       <audio src={props.src} className={props.AClass}></audio>
-    </div>
+    </React.Fragment>
   );
 }
 
